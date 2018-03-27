@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface HelloRemoting {
 
     @RequestMapping("/hello")
-    public String hehe(@RequestParam(value = "name") String name);
+    public String hehe2(@RequestParam(value = "name") String name);
 }

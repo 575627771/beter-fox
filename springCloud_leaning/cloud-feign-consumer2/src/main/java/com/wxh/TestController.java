@@ -16,6 +16,6 @@ public class TestController {
 
     @RequestMapping("/hello/{name}")
     public String index(@PathVariable(value = "name") String name){
-        return helloRemoting.hehe(name);
+        return helloRemoting.hehe2(name);
     }
 }
